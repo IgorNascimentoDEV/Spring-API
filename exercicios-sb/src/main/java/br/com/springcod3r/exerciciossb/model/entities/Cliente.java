@@ -1,13 +1,13 @@
-package br.com.springcod3r.exerciciossb.models;
+package br.com.springcod3r.exerciciossb.model.entities;
 
-public class ClienteModel {
+public class Cliente {
 
 	private int id;
 	private String nome;
 	private String cpf;
 	
 	
-	public ClienteModel(int id, String nome, String cpf) {
+	public Cliente(int id, String nome, String cpf) {
 		super();
 		this.id = id;
 		this.nome = nome;
