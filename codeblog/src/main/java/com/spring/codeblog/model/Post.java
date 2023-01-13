@@ -11,6 +11,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 
+
 @Entity
 @Table(name = "TB_POST")
 public class Post {
