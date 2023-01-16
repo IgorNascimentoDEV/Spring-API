@@ -11,5 +11,5 @@ public interface CodeblogService {
 	public Post findById(long id);
 	
 	public Post save(Post post);
-	
+
 }

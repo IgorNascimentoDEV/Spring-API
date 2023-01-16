@@ -30,5 +30,4 @@ public class CodeblogServiceImplement implements CodeblogService{
 	public Post save(Post post) {
 		return codeblogRepository.save(post);
 	}
-
 }
