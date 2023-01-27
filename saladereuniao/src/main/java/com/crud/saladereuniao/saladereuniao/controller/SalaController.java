@@ -23,7 +23,7 @@ import com.crud.saladereuniao.saladereuniao.repository.SalaRepository;
 
 
 
-@RestController @CrossOrigin(origins = "http://localhost:4200")
+@RestController 
 @RequestMapping("/api/v1")
 public class SalaController {
 
@@ -32,7 +32,6 @@ public class SalaController {
 
 
 	@GetMapping("/salas")
-	
 	public List<Sala> getAllSalas(){
 		return salaRepository.findAll();
 		

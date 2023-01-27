@@ -22,10 +22,10 @@ public class Sala {
 	@Column(name="data", nullable=false)
 	private String data;
 
-	@Column(name="horaInicio", nullable=false)
+	@Column(name="hora_inicio", nullable=false)
 	private String horaInicio;
 	
-	@Column(name="horaFim", nullable=false)
+	@Column(name="hora_fim", nullable=false)
 	private String horaFim;
 	
 	
